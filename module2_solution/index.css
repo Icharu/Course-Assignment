@@ -18,38 +18,62 @@ background-repeat: no-repeat;
   overflow-x: hidden;
   background-color: #f0dc8b;
 }
-.main {
+.meow
+{
   position: absolute;
-  top: 30;
-  height: 520;
-  width: 1150;
-  left: 100;
-  background: #000000;
-  border-radius: 7px;
-  z-index: 10;
-  mix-blend-mode: initial;
-  opacity: 0.2;
-  animation: transitionIn 1s ease;
-}
+  top: 50;
+  right: 580
 }
 .main2 {
   position: absolute;
-  top: 30;
-  height: 520;
-  width: 1150;
-  left: 200;
-  background: #000000;
+  top: 150;
+  height: 300;
+  width: 400;
+  left: 500;
+  background: #fff;
   border-radius: 7px;
   z-index: 10;
   mix-blend-mode: initial;
-  opacity: 0.2;
+  opacity: 1;
+  animation: transitionIn 1s ease;
+}
+.Beef {
+  position: absolute;
+  top: 150;
+  height: 300;
+  width: 400;
+  left: 20;
+  background: #ffffff;
+  border-radius: 7px;
+  z-index: 10;
+  mix-blend-mode: initial;
+  opacity: 1;
+  animation: transitionIn 1s ease;
+}
+.Rice {
+  position: absolute;
+  top: 150;
+  height: 300;
+  width: 400;
+  left: 940;
+  background: #ffffff;
+  border-radius: 7px;
+  z-index: 10;
+  mix-blend-mode: initial;
+  opacity: 1;
   animation: transitionIn 1s ease;
 }
 @media screen and (min-width:768px) and (max-width:992px) {
-  .main {
+  .meow {
     height: 780;
     width: 380;
-    left: 20;
+    left: 620;
+  }
+@media screen and (max-width:768) {
+  .meow {
+    height: 780;
+    width: 380;
+    left: 200;
   }
 section {
   position: relative;
@@ -60,16 +84,4 @@ section {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-}
-#Beef2
-  {
-     position: absolute;
-  right: 575px;
-  top: 150;
-  color: #000000;
-  white-space: nowrap;
-  font-size: 3.5vw;
-  z-index: 9;
-  object-fit: cover;
-  pointer-events: none;
 }
