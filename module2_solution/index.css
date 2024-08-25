@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Finger+Paint&family=Montserrat:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+background-image: url("https://cdn.glitch.global/7ef30a25-5048-41f3-9bc9-851cca82451a/HD-wallpaper-after-the-rain-spirited-away-train-anime.jpg?v=1720727685541");
+background-position: 0%, 0%, 50%, 50%;
+background-size: auto, cover;
+background-repeat: no-repeat;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-attachment: fixed;
+}
+.main {
+  position: absolute;
+  top: 30;
+  height: 520;
+  width: 1150;
+  left: 100;
+  background: #ffffff;
+  border-radius: 7px;
+  z-index: 10;
+  mix-blend-mode: initial;
+  opacity: 0.2;
+  animation: transitionIn 1s ease;
+}
