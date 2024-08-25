@@ -16,7 +16,6 @@ background-size: auto, cover;
 background-repeat: no-repeat;
   min-height: 100vh;
   overflow-x: hidden;
-  background-attachment: fixed;
   background-color: #f0dc8b;
 }
 .main {
