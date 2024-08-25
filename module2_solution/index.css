@@ -31,6 +31,20 @@ background-repeat: no-repeat;
   opacity: 0.2;
   animation: transitionIn 1s ease;
 }
+}
+.main2 {
+  position: absolute;
+  top: 30;
+  height: 520;
+  width: 1150;
+  left: 200;
+  background: #000000;
+  border-radius: 7px;
+  z-index: 10;
+  mix-blend-mode: initial;
+  opacity: 0.2;
+  animation: transitionIn 1s ease;
+}
 @media screen and (min-width:768px) and (max-width:992px) {
   .main {
     height: 780;
