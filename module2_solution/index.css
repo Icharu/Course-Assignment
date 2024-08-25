@@ -32,3 +32,9 @@ background-repeat: no-repeat;
   opacity: 0.2;
   animation: transitionIn 1s ease;
 }
+@media screen and (min-width:768px) and (max-width:992px) {
+  .main {
+    height: 780;
+    width: 380;
+    left: 20;
+  }
